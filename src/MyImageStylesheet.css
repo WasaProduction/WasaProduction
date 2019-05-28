@@ -1,0 +1,63 @@
+.image_container 
+{
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.overlay
+{
+
+}
+
+.image_container .overlay 
+{
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.image_container:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.artwork_name
+{
+  color: white;
+}
+
+.image_container .image_button
+{
+}
+
+
+
+#imageFrame 
+{
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+b-dics
+{
+
+}
